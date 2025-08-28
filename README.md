@@ -34,7 +34,7 @@ cd frontend
 npm install
 npm start
 ```
-> A aplicação estará disponível em [frontend](http://localhost:3000) e [baclend](http://localhost:8080)
+> A aplicação estará disponível em [frontend](http://localhost:3000) e [backend](http://localhost:8080)
 
 ---
 ## 📖 Documentação da API
