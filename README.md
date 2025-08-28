@@ -1,4 +1,4 @@
-# 🎓 E-Learning Platform
+# 🎓 E-Learning Platform - Aprenda +
 
 Plataforma de ensino online desenvolvida como projeto de bootcamp.  
 Permite que estudantes se inscrevam em cursos, instrutores publiquem conteúdo e administradores gerenciem o sistema.
