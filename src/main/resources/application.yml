@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL}
+    username: ${SPRING_DATASOURCE_USERNAME}
+    password: ${SPRING_DATASOURCE_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
+
+springdoc:
+  swagger-ui:
+    path: /docs            # UI em /docs
+    operations-sorter: alpha
+    tags-sorter: alpha
+  api-docs:
+    path: /v3/api-docs     # default
+
+
+app:
+  jwt:
+    secret: ${APP_JWT_SECRET}
+    issuer: ${APP_JWT_ISSUER:aprendamais-api}
+    expiration-minutes: ${APP_JWT_EXPIRATION_MINUTES:120}
+
+seed:
+  admin:
+    email: ${SEED_ADMIN_EMAIL}
+    password: ${SEED_ADMIN_PASSWORD}
+    name: ${SEED_ADMIN_NAME:Admin}
